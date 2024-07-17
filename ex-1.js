@@ -15,7 +15,6 @@ function findStudentIndex(students, searchStudent) {
   return -1;
 }
 
-// ตอบคำถามตรงนี้จ้า
 console.log(
   findStudentIndex(
     [
@@ -38,3 +37,7 @@ console.log(
     "Andrew"
   )
 );
+
+// ยังจำได้ไหมว่า Binary Search มี Big O เป็นเท่าไร เพราะอะไร ให้เขียนอธิบายใน comment แนบมาข้างใต้โค้ดตรงส่วนที่ระบุว่า “ตอบคำถามตรงนี้จ้า”
+// ตอบคำถามตรงนี้จ้า
+// Answer: O(logN)
